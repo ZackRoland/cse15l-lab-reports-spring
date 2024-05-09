@@ -81,6 +81,7 @@ Explanation of Fix:
 > through updating the temporary array instead. After, the orginal array gets set to the temporary array so that the orginal
 > array gets updated without worry.
 
+
 ## **PART 2 - RESEARCHING COMMANDS**
 
 The command being researched is the Grep command
