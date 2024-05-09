@@ -1,20 +1,26 @@
 ## **PART 1 - BUGS**
 The bug of question is within ArrayExamples, with the reverseInPlace method
+
 1) A failure Inducing input:
+
 ```
 int[] input2 = {3,2,1};
 ArrayExamples.reverseInPlace(input2);
 assertArrayEquals(new int[] {1,2,3}, input2 );
 
 ```
+
 2) A non failure inducing input:
+
 ```
 int[] input3 = {1,1,1};
 ArrayExamples.reverseInPlace(input1);
 assertArrayEquals(new int[] {1,1,1}, input3);
 
 ```  
+
 3) Symptom from running tests:
+
 ```
 1) testReverseInPlace(ArrayTests)
 arrays first differed at element [2]; expected:<3> but was:<1>
@@ -34,8 +40,10 @@ Caused by: java.lang.AssertionError: expected:<3> but was:<1>
         at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
         ... 38 more
 ```
+
 4) The Bug:
 Before:
+
 ```
 static void reverseInPlace(int[] arr) {
    for(int i = 0; i < arr.length; i += 1) {
@@ -44,6 +52,7 @@ static void reverseInPlace(int[] arr) {
  }
 
 ```
+
 Explanation of Bug:
 > The entierty of the bug is that while the for loop is running, it is updating the orginal array. For example,
 > when the array {3, 2, 1} gets passed into this code, at index 0, arr[0] = arr[3-0-1], we set the 0 index of the
@@ -53,6 +62,7 @@ Explanation of Bug:
 > of {1,2,1} instead of the desired {1,2,3}. Since the array {1,1,1} and {3} have either the same values or one value,
 > this error wouldn't have been detected by them
 After:
+
 ```
 static void reverseInPlace(int[] arr) {
    int[] tempArr = new int[arr.length];
@@ -116,6 +126,7 @@ zroland@ieng6-202]:docsearch:287$ grep -rh "holy" technical/911report/
 
 > grep -rh "holy" searches recursively in the technical/911report/ directory and lists all the lines
 > in which "holy" appears within the textfiles that reside in that directory.
+
 2) The second command line option is: -l
 "-l" Displays list of a file names only
 
@@ -150,6 +161,7 @@ technical/911report/chapter-6.txt
 
 > grep -rl text searches recursively in a given directory to return the names of all the files that contain
 > the specified text.
+
 3) The third command line option is: -n
 "-n" Displays matched lines and their line numbers
 
