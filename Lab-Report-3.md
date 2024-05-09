@@ -80,9 +80,12 @@ Explanation of Fix:
 > Since the bug was caused by the array updating itself, the key to fixing it is to generate a temporary array and we loop
 > through updating the temporary array instead. After, the orginal array gets set to the temporary array so that the orginal
 > array gets updated without worry.
+
 ## **PART 2 - RESEARCHING COMMANDS**
+
 The command being researched is the Grep command
 [link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+
 1) The first command line option is: -h
 "-h" Displays matched lines, but does not display the filenames
 
