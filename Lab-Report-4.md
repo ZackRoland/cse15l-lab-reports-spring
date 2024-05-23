@@ -1,14 +1,14 @@
 ## **LAB 4 - VIM**
 ---
 STEP 4:
-
+![ssh](https://postimg.cc/FfH8dfF8)
 ```
 ssh<space>zroland@ieng6.ucsd.edu<enter>
 ```
 > Ran ssh with my email to log into ieng6
 
 STEP 5:
-
+![ssh git clone](https://postimg.cc/QF1x4yph)
 ```
 git<space>clone<space>git@github.com:ZackRoland/lab7.git<enter>
 ```
@@ -16,7 +16,7 @@ git<space>clone<space>git@github.com:ZackRoland/lab7.git<enter>
 > git clone with it.
 
 STEP 6:
-
+![Failed Tests](https://postimg.cc/q639J9B7)
 ```
 cd<space>lab7/<enter>
 bash<space>test.sh
@@ -25,7 +25,7 @@ bash<space>test.sh
 > ran the test files in test.sh with bash.
 
 STEP 7:
-
+![vim](https://postimg.cc/jD0R74B9)
 ```
 vim<space>ListExamples.java<enter> 44G 1e r2 :wq <enter>
 ```
@@ -39,13 +39,15 @@ vim<space>ListExamples.java<enter> 44G 1e r2 :wq <enter>
 > the 2. Finally to save the changes I typed in :wq then enter.
 
 STEP 8:
+![Test Success](https://postimg.cc/rdGsmPmQ)
 ```
 bash<space>test.sh
 ```
 > To rerun the tests I had to run bash on the test file again.
 
 STEP 9:
-
+![git commit](https://postimg.cc/JDn8L6By)
+![git push](https://postimg.cc/DmShpNTH)
 ```
 git<space>add<space>.<enter>
 git<space>commit<enter>
