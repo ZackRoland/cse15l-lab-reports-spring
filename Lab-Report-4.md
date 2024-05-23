@@ -25,6 +25,7 @@ bash<space>test.sh
 > ran the test files in test.sh with bash.
 
 STEP 7:
+
 ![vim](https://i.postimg.cc/T3h1Bk0R/Screenshot-2024-05-22-at-10-03-00-PM.png)
 ```
 vim<space>ListExamples.java<enter> 44G 1e r2 :wq <enter>
