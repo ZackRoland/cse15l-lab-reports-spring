@@ -1,7 +1,7 @@
 ## **LAB 4 - VIM**
 ---
 STEP 4:
-![ssh](https://postimg.cc/FfH8dfF8)
+![ssh](https://i.postimg.cc/nL4JW7yF/image-2024-05-22-225728646.png)
 ```
 ssh<space>zroland@ieng6.ucsd.edu<enter>
 ```
