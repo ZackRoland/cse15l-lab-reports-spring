@@ -8,7 +8,7 @@ ssh<space>zroland@ieng6.ucsd.edu<enter>
 > Ran ssh with my email to log into ieng6
 
 STEP 5:
-![ssh git clone](https://postimg.cc/QF1x4yph)
+![ssh git clone](https://i.postimg.cc/RZb6Frh6/Screenshot-2024-05-22-at-10-05-21-PM.png)
 ```
 git<space>clone<space>git@github.com:ZackRoland/lab7.git<enter>
 ```
@@ -16,7 +16,7 @@ git<space>clone<space>git@github.com:ZackRoland/lab7.git<enter>
 > git clone with it.
 
 STEP 6:
-![Failed Tests](https://postimg.cc/q639J9B7)
+![Failed Tests](https://i.postimg.cc/cC9ZmSVf/image-2024-05-22-225610414.png)
 ```
 cd<space>lab7/<enter>
 bash<space>test.sh
@@ -25,7 +25,7 @@ bash<space>test.sh
 > ran the test files in test.sh with bash.
 
 STEP 7:
-![vim](https://postimg.cc/jD0R74B9)
+![vim](https://i.postimg.cc/T3h1Bk0R/Screenshot-2024-05-22-at-10-03-00-PM.png)
 ```
 vim<space>ListExamples.java<enter> 44G 1e r2 :wq <enter>
 ```
@@ -39,15 +39,15 @@ vim<space>ListExamples.java<enter> 44G 1e r2 :wq <enter>
 > the 2. Finally to save the changes I typed in :wq then enter.
 
 STEP 8:
-![Test Success](https://postimg.cc/rdGsmPmQ)
+![Test Success](https://i.postimg.cc/fbp9H4hn/Screenshot-2024-05-22-at-10-03-57-PM.png)
 ```
 bash<space>test.sh
 ```
 > To rerun the tests I had to run bash on the test file again.
 
 STEP 9:
-![git commit](https://postimg.cc/JDn8L6By)
-![git push](https://postimg.cc/DmShpNTH)
+![git commit](https://i.postimg.cc/ydh8021T/Screenshot-2024-05-22-at-10-07-36-PM.png)
+![git push](https://i.postimg.cc/HW2LnGPY/Screenshot-2024-05-22-at-10-09-17-PM.png)
 ```
 git<space>add<space>.<enter>
 git<space>commit<enter>
