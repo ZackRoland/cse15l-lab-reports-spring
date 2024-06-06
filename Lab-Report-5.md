@@ -30,6 +30,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 > and reran my bash script, everything ran smoothly
 ![Fixed Code](https://i.postimg.cc/HWJ0cbFy/Screenshot-2024-06-05-at-6-26-07-PM.png)
 ![Correct Terminal Output](https://i.postimg.cc/50XzzMKV/Screenshot-2024-06-05-at-6-26-37-PM.png)
+
 # Setup Information:
 1. File and Directory Structure: The file and directory structure should be followed
    from lab 6's list-examples-grader since that is where the bash script the student
