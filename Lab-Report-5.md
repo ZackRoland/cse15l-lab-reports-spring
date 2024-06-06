@@ -37,6 +37,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
    is running lies. Would Look like the following after running the script:
    ![File Structure](https://i.postimg.cc/kXg2RC2h/Screenshot-2024-06-05-at-7-32-46-PM.png)
 2. Contents of each file before fixing the bug:
+
 ```
 ListExamples.java:
 import java.util.ArrayList;
@@ -89,6 +90,7 @@ class ListExamples {
 
 }
 ```
+
 ```
 grade.sh:
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
@@ -141,6 +143,7 @@ fi
 #STEP 5:
 #echo "'$?'"
 ```
+
 ```
 TestListExamples.java:
 import static org.junit.Assert.*;
@@ -221,6 +224,7 @@ public class Server {
     }
 }
 ```
+
 ```
 GradeServer.java:
 import java.io.BufferedReader;
@@ -313,10 +317,13 @@ class ExecExamples {
 }
 
 ```
+
 3. Command line to trigger bug:
+
 ```
 bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3
 ```
+
 4. Description of edit to fix bug:
 > Student needed to fix in line 36 of grade.sh the java compilation command since
 > they had forgotten the org.junit.runner.JUnitCore
