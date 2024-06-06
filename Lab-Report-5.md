@@ -32,3 +32,10 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ![Correct Terminal Output](https://i.postimg.cc/50XzzMKV/Screenshot-2024-06-05-at-6-26-37-PM.png)
 ## **PART 2:**
 ---
+> This quarter was much better than last for me and was able to learn a lot from cse15l
+> this time around. Something cool in the second half of the quarter I learned is how
+> to debug using jdb and more recently today how to debug using VSCode instead. I find
+> it interesting to learn the various ways in which software development is done in the
+> industry setting since that is the path that I want to venture on in the future. I
+> think that being able hone in on specific skill sets would make you a more desriable
+> candidate for job offers which is why its important these basics are ground into us.
